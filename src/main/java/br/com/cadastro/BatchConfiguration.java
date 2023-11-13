@@ -38,8 +38,8 @@ public class BatchConfiguration {
 		HikariConfig dataSourceConfig = new HikariConfig();
 		dataSourceConfig.setDriverClassName(this.dataSourceDriver);
 		dataSourceConfig.setJdbcUrl(this.dataSourceUrl);
-		dataSourceConfig.setUsername(userName);
-		dataSourceConfig.setPassword(password);
+		dataSourceConfig.setUsername("root");
+		dataSourceConfig.setPassword("admin");
 		dataSourceConfig.setMaximumPoolSize(10);
 
 		return new HikariDataSource(dataSourceConfig);
