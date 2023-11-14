@@ -31,7 +31,12 @@ public class CategoriaService {
 
 		Categoria categoria = new Categoria();
 		categoria = addCategoria(prodRequest, categoria);
-		categoria = categoriaRepository.save(categoria);
+
+		try {
+			categoria = categoriaRepository.save(categoria);
+		} catch (Exception e) {
+			logger.error("Ocorreu um erro ao salvar o tipo de categoria", e.getMessage());
+		}
 
 		return categoria;
 
