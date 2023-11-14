@@ -113,6 +113,7 @@ public class CategoriaService {
 	}
 
 
+
 	public List<Categoria> buscarTarifaProduto(String categoria) {
 
 		List<Categoria> tarifaProduto = new ArrayList<Categoria>();
