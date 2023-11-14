@@ -1,13 +1,10 @@
 br\com\cadastro\SegurosApplication.class
 br\com\cadastro\entity\Categoria.class
 br\com\cadastro\models\CategoriaRequest.class
-META-INF\MANIFEST.MF
 br\com\cadastro\models\ProdutoAtributosRequest.class
-META-INF\maven\org.springframework\produtos_seguros\pom.xml
 br\com\cadastro\BatchConfiguration.class
-br\com\cadastro\services\CategoriaService.class
 br\com\cadastro\models\CategoriaResponse.class
 br\com\cadastro\repositories\CategoriaRepository.class
-META-INF\maven\org.springframework\produtos_seguros\pom.properties
+br\com\cadastro\services\CategoriaService.class
 br\com\cadastro\controller\SegurosController.class
 br\com\cadastro\SwaggerConfig.class
